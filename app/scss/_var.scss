@@ -1,0 +1,41 @@
+$mobile: 23.4375rem;
+$desktop: 64rem;
+
+//theme1
+$t1Bg-main: hsl(222, 26%, 31%);
+$t1Bg-toggle: hsl(223, 31%, 20%);
+$t1Bg-screen: hsl(224, 36%, 15%);
+$t1Bg-keyboard: hsl(225, 21%, 49%);
+$t1key-shadow: hsl(224, 28%, 35%);
+$t1bg-keyboard-red: hsl(6, 63%, 50%);
+$t1key-shadow-darkRed: hsl(6, 70%, 34%);
+$t1bg-keyboard-grayishOrange: hsl(30, 25%, 89%);
+$t1key-shadow-Orange: hsl(28, 16%, 65%);
+$t1text-grayishBlue: hsl(221, 14%, 31%);
+$t1text-white: hsl(0, 0, 100%);
+
+//theme2
+$t2Bg-main: hsl(0, 0%, 90%);
+$t2Bg-toggle: hsl(0, 5%, 81%);
+$t2Bg-screen: hsl(0, 0%, 93%);
+$t2Bg-keyboard-cyan: hsl(185, 42%, 37%);
+$t2key-shadow-darkCyan: hsl(185, 58%, 25%);
+$t2bg-keyboard-orange: hsl(25, 98%, 40%);
+$t2key-shadow-darkOrange: hsl(25, 99%, 27%);
+$t2bg-keyboard-grayishYellow: hsl(45, 7%, 89%);
+$t2key-shadow-grayishOrange: hsl(35, 11%, 61%);
+$t2text-grayishYellow: hsl(60, 10%, 19%);
+$t2text-white: hsl(0, 0, 100%);
+
+//theme3
+$t3Bg-main: hsl(268, 75%, 9%);
+$t3Bg-toggle-screen: hsl(268, 71%, 12%);
+$t3Bg-keyboard-Violet: hsl(281, 89%, 26%);
+$t3key-shadow-magenta: hsl(285, 91%, 52%);
+$t3bg-keyboard-cyan: hsl(176, 100%, 44%);
+$t3key-shadow-softCyan: hsl(177, 92%, 70%);
+$t3bg-keyboard-darkViolet: hsl(268, 47%, 21%);
+$t3key-shadow-darkMagenta: hsl(290, 70%, 36%);
+$t3text-lightYellow: hsl(52, 100%, 62%);
+$t3text-veryDarkBlue: hsl(198, 20%, 13%);
+$t3text-white: hsl(0, 0, 100%);

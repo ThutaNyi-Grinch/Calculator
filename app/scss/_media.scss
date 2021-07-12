@@ -1,0 +1,15 @@
+@media screen and (min-width: $desktop) {
+  .header {
+    width: 33.75rem;
+    height: 3.75rem;
+  }
+  .front {
+    width: 33.75rem;
+  }
+  .keyboard {
+    width: 33.75rem;
+    height: 30rem;
+    padding: 25px;
+    grid-gap: 25px;
+  }
+}

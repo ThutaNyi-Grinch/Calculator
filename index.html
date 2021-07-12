@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app/css/style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="main" class="theme1">
+      <div class="container">
+        <header class="header">
+          <div class="header__title">calc</div>
+          <div class="header__btn">
+            <div class="header__btn-title">theme</div>
+            <div class="header__btns">
+              <div class="numdiv">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+              </div>
+              <div id="balls" class="balldiv">
+                <div id="ball" class="header__btn-ball ball left"></div>
+                <div class="header__btn-1 ball1"></div>
+                <div class="header__btn-2 ball2"></div>
+                <div class="header__btn-3 ball3"></div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div id="front" class="front">0</div>
+        <div class="keyboard">
+          <div id="num" value="7" class="num">7</div>
+          <div id="num" value="8" class="num">8</div>
+          <div id="num" value="9" class="num">9</div>
+          <div id="num" value="del" class="extra">DEL</div>
+          <div id="num" value="4" class="num">4</div>
+          <div id="num" value="5" class="num">5</div>
+          <div id="num" value="6" class="num">6</div>
+          <div id="cal" value="+" class="num">+</div>
+          <div id="num" value="1" class="num">1</div>
+          <div id="num" value="2" class="num">2</div>
+          <div id="num" value="3" class="num">3</div>
+          <div id="cal" value="-" class="num">-</div>
+          <div id="num" value="." class="num">.</div>
+          <div id="num" value="0" class="num">0</div>
+          <div id="cal" value="/" class="num">/</div>
+          <div id="cal" value="x" class="num">x</div>
+          <div id="cal" value="reset" class="extra reset">Reset</div>
+          <div id="cal" value="=" class="equal">=</div>
+        </div>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Thuta Nyi</a>.
+    </div>
+    <script src="app/js/main.js"></script>
+  </body>
+</html>
