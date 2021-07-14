@@ -77,7 +77,11 @@ cals.forEach((cal) => {
         front.innerHTML = firstNum;
       } else if (calMan === "/") {
         let final = calNum1 / calNum2;
-        firstNum = String(final);
+        if (calNum1 % calNum2 == 0) {
+            firstNum = String(final);
+          } else {
+            firstNum = String(final.toFixed(3));
+          }
         secondnum = "";
         front.innerHTML = firstNum;
       }
@@ -103,7 +107,11 @@ cals.forEach((cal) => {
           front.innerHTML = firstNum;
         } else if (calMan === "/") {
           let final = calNum1 / calNum2;
-          firstNum = String(final);
+          if (calNum1 % calNum2 == 0) {
+            firstNum = String(final);
+          } else {
+            firstNum = String(final.toFixed(3));
+          }
           secondnum = "";
           front.innerHTML = firstNum;
         }
